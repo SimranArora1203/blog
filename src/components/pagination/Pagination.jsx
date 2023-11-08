@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./pagination.module.css";
 import { useRouter } from "next/navigation";
 const pagination = ({ page, hasPrev, hasNext, cat }) => {
-  const router = useRouter();
+  // const router = useRouter();
 
   return (
     <div className={styles.container}>
