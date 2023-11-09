@@ -143,13 +143,13 @@ const WritePage = () => {
             </button>
           </div>
         )}
-        <ReactQuill
+{/*         <ReactQuill
           className={styles.textArea}
           theme="bubble"
           value={value}
           onChange={setValue}
           placeholder="Tell your story..."
-        />
+        /> */}
       </div>
       <button className={styles.publish} onClick={handleSubmit}>
         Publish
